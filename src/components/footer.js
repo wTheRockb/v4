@@ -70,7 +70,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/bchiang7/v4')
+    fetch('https://api.github.com/repos/wTheRockb/v4')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -101,11 +101,13 @@ const Footer = () => {
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
+        Original Template{' '}
+        <a href="https://github.com/bchiang7/v4">Designed &amp; Built by Brittany Chiang</a>
         <StyledGitHubLink
-          href="https://github.com/bchiang7/v4"
+          href="https://github.com/wTheRockb/v4"
           target="_blank"
           rel="nofollow noopener noreferrer">
-          <div>Designed &amp; Built by Brittany Chiang</div>
+          <div> - Customized by Woody Butler</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>

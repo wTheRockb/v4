@@ -3,4 +3,4 @@ title: 'Get In Touch'
 buttonText: 'Say Hello'
 ---
 
-Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+I genuinely enjoy talking with others about their passions and projects. If you've got something you want me to hear, email is a great way to reach me. If you want to show me something, [tag me on twitter](https://twitter.com/forrestwbutler) so all can benefit!

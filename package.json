@@ -1,11 +1,11 @@
 {
-  "name": "v4",
+  "name": "woody_personal_site",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Woody Butler <forrestwbutler@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/wTheRockb/v4"
   },
   "keywords": [
     "gatsby"
@@ -36,6 +36,7 @@
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.18.7",
+    "gatsby-cli": "^2.12.34",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-google-analytics": "^2.1.29",
     "gatsby-plugin-manifest": "^2.2.31",
