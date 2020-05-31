@@ -101,8 +101,9 @@ const Footer = () => {
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
-        Original Template{' '}
-        <a href="https://github.com/bchiang7/v4">Designed &amp; Built by Brittany Chiang</a>
+        <a href="https://github.com/bchiang7/v4">
+          Original Template Designed &amp; Built by Brittany Chiang
+        </a>
         <StyledGitHubLink
           href="https://github.com/wTheRockb/v4"
           target="_blank"
