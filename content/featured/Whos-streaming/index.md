@@ -6,10 +6,10 @@ github: 'https://github.com/wTheRockb/whos-streaming'
 external: ''
 tech:
   - Python
-  - FLask
+  - Flask
   - OAuth
   - Twitch API
 showInProjects: true
 ---
 
-A tool to display live twitch streams followed by a user, in the terminal. Runs a minimal login server via Flask to obtain OAuth token to perform API calls, then queries Twitch API for relevant data.
+A script to display live twitch streams followed by a user. Runs a minimal login server via Flask to obtain OAuth token to perform API calls, then queries Twitch API for relevant data.

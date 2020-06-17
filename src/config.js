@@ -3,8 +3,8 @@ module.exports = {
   siteDescription:
     'Woody Butler is a software engineer based in Los Angeles, CA who excels at creating customer-first applications.',
   siteKeywords:
-    'Woody Butler, Woody, Butler, bchiang7, software engineer, front-end engineer, full-stack engineer, twitch developer, web developer, javascript, python, Tufts',
-  siteUrl: 'https://brittanychiang.com', // TODO
+    'Woody Butler, Woody, Butler, software engineer, front-end engineer, full-stack engineer, twitch developer, web developer, javascript, python, Tufts, viewcount analytics',
+  siteUrl: 'https://wtherockb.com',
   siteLanguage: 'en_US',
   // googleAnalyticsID: 'UA-45666519-2', TODO
   // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
@@ -22,10 +22,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/woodybutler/',
     },
-    // {
-    //   name: 'Instagram', TODO blog
-    //   url: 'https://www.instagram.com/bchiang7',
-    // },
     {
       name: 'Twitter',
       url: 'https://twitter.com/forrestwbutler',
