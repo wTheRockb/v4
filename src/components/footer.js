@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 import { FormattedIcon } from '@components/icons';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
@@ -40,53 +39,12 @@ const StyledMetadata = styled.div`
   font-size: ${fontSizes.xs};
   line-height: 1;
 `;
-const StyledGitHubLink = styled.a`
-  color: ${colors.lightSlate};
-  padding: 10px;
-`;
-const StyledGitHubInfo = styled.div`
-  margin-top: 10px;
 
-  & > span {
-    display: inline-flex;
-    align-items: center;
-    margin: 0 7px;
-  }
-  svg {
-    display: inline-block;
-    height: 15px;
-    width: auto;
-    margin-right: 5px;
-  }
-`;
-
-const Footer = () => {
-  const [githubInfo, setGitHubInfo] = useState({
-    stars: null,
-    forks: null,
-  });
-
-  useEffect(() => {
-    if (process.env.NODE_ENV !== 'production') {
-      return;
-    }
-    fetch('https://api.github.com/repos/wTheRockb/v4')
-      .then(response => response.json())
-      .then(json => {
-        const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      })
-      .catch(e => console.error(e));
-  }, []);
-
-  return (
-    <StyledContainer>
-      <StyledSocial>
-        <StyledSocialList>
-          {socialMedia &&
+const Footer = () => (
+  <StyledContainer>
+    <StyledSocial>
+      <StyledSocialList>
+        {socialMedia &&
             socialMedia.map(({ name, url }, i) => (
               <li key={i}>
                 <StyledSocialLink
@@ -98,38 +56,20 @@ const Footer = () => {
                 </StyledSocialLink>
               </li>
             ))}
-        </StyledSocialList>
-      </StyledSocial>
-      <StyledMetadata tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
+      </StyledSocialList>
+    </StyledSocial>
+    <StyledMetadata tabindex="-1">
+      <a href="https://github.com/bchiang7/v4">
           Original Template Designed &amp; Built by Brittany Chiang
-        </a>
-        <StyledGitHubLink
-          href="https://github.com/wTheRockb/v4"
-          target="_blank"
-          rel="nofollow noopener noreferrer">
-          <div> - Customized by Woody Butler</div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <StyledGitHubInfo>
-              <span>
-                <FormattedIcon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <FormattedIcon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </StyledGitHubInfo>
-          )}
-        </StyledGitHubLink>
-      </StyledMetadata>
-    </StyledContainer>
-  );
-};
-
-Footer.propTypes = {
-  githubInfo: PropTypes.object,
-};
+      </a>
+      <a
+        href="https://github.com/wTheRockb/v4"
+        target="_blank"
+        rel="nofollow noopener noreferrer">
+        <div> - Customized by Woody Butler</div>
+      </a>
+    </StyledMetadata>
+  </StyledContainer>
+);
 
 export default Footer;

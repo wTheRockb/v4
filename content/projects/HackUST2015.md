@@ -1,7 +1,7 @@
 ---
 date: '2015-02-16'
 title: 'HackUST 2015 Website'
-github: 'https://github.com/bchiang7/time-to-have-more-fun'
+github: 'https://github.com/wTheRockb/mushhack'
 external: ''
 tech:
   - HTML

@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/master/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/wTheRockb/v4/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   wTheRockb.com - v1
@@ -9,11 +9,11 @@
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/wtherockb/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+    <img src="https://api.netlify.com/api/v1/badges/2503ddb1-9521-4976-917e-bfb151f0cfe6/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/master/src/images/demo.png)
+![demo](https://raw.githubusercontent.com/wTheRockb/v4/master/src/images/demo.png)
 
 ## 🛠 Installation & Set Up
 
