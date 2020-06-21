@@ -45,27 +45,28 @@ const Footer = () => (
     <StyledSocial>
       <StyledSocialList>
         {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <StyledSocialLink
-                  href={url}
-                  target="_blank"
-                  rel="nofollow noopener noreferrer"
-                  aria-label={name}>
-                  <FormattedIcon name={name} />
-                </StyledSocialLink>
-              </li>
-            ))}
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <StyledSocialLink
+                href={url}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label={name}>
+                <FormattedIcon name={name} />
+              </StyledSocialLink>
+            </li>
+          ))}
       </StyledSocialList>
     </StyledSocial>
     <StyledMetadata tabindex="-1">
       <a href="https://github.com/bchiang7/v4">
-          Original Template Designed &amp; Built by Brittany Chiang
+        Original Template Designed &amp; Built by Brittany Chiang
       </a>
       <a
         href="https://github.com/wTheRockb/v4"
         target="_blank"
-        rel="nofollow noopener noreferrer">
+        rel="nofollow noopener noreferrer"
+        style={{ marginLeft: '6px' }}>
         <div> - Customized by Woody Butler</div>
       </a>
     </StyledMetadata>
