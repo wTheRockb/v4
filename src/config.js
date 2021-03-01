@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Woody Butler | Software Engineer',
   siteDescription:
-    'Woody Butler is a software engineer based in Los Angeles, CA who excels at creating customer-first applications.',
+    'Woody Butler is a software engineer based in Newport Beach, CA who excels at creating customer-first applications.',
   siteKeywords:
     'Woody Butler, Woody, Butler, software engineer, front-end engineer, full-stack engineer, twitch developer, web developer, javascript, python, Tufts, viewcount analytics',
   siteUrl: 'https://wtherockb.com',
@@ -9,7 +9,7 @@ module.exports = {
   // googleAnalyticsID: 'UA-45666519-2', TODO
   // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Woody Butler',
-  location: 'Los Angeles, CA',
+  location: 'Newport Beach, CA',
   email: 'forrestwbutler@gmail.com',
   github: 'https://github.com/wTheRockb',
   twitterHandle: '@forrestwbutler',
